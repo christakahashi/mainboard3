@@ -1,41 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:mainboard-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:E5908-5VC145-L
-LIBS:RoboKUT_uC
-LIBS:pololu_a4988
-LIBS:TLC5917ID
-LIBS:switches
+EESchema Schematic File Version 4
 LIBS:mainboard-cache
-EELAYER 25 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ULN2003A U3
+L mainboard-rescue:ULN2003A U3
 U 1 1 5930FD56
 P 6750 2350
 F 0 "U3" H 6750 2450 50  0000 C CNN
@@ -61,7 +26,7 @@ F 3 "" H 6750 2350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L mainboard-rescue:GND #PWR01
 U 1 1 5930FE0D
 P 1900 1250
 F 0 "#PWR01" H 1900 1000 50  0001 C CNN
@@ -72,7 +37,7 @@ F 3 "" H 1900 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR02
+L mainboard-rescue:+12V #PWR02
 U 1 1 5930FE31
 P 1900 750
 F 0 "#PWR02" H 1900 600 50  0001 C CNN
@@ -83,7 +48,7 @@ F 3 "" H 1900 750 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
+L mainboard-rescue:PWR_FLAG #FLG03
 U 1 1 5930FE5D
 P 1650 750
 F 0 "#FLG03" H 1650 845 50  0001 C CNN
@@ -94,7 +59,7 @@ F 3 "" H 1650 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG04
+L mainboard-rescue:PWR_FLAG #FLG04
 U 1 1 5930FE72
 P 1650 1150
 F 0 "#FLG04" H 1650 1245 50  0001 C CNN
@@ -105,7 +70,7 @@ F 3 "" H 1650 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR05
+L mainboard-rescue:+12V #PWR05
 U 1 1 5930FF7A
 P 6350 1750
 F 0 "#PWR05" H 6350 1600 50  0001 C CNN
@@ -116,7 +81,7 @@ F 3 "" H 6350 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ULN2003A U4
+L mainboard-rescue:ULN2003A U4
 U 1 1 59310167
 P 6750 3750
 F 0 "U4" H 6750 3850 50  0000 C CNN
@@ -127,7 +92,7 @@ F 3 "" H 6750 3750 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +12V #PWR06
+L mainboard-rescue:+12V #PWR06
 U 1 1 5931016D
 P 6250 3150
 F 0 "#PWR06" H 6250 3000 50  0001 C CNN
@@ -138,7 +103,7 @@ F 3 "" H 6250 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CY8CKIT-059_Target U5
+L mainboard-rescue:CY8CKIT-059_Target U5
 U 1 1 593101D2
 P 9150 3200
 F 0 "U5" H 9150 4550 60  0000 C CNN
@@ -149,7 +114,7 @@ F 3 "" H 8850 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L E5908-5VC145-L J1
+L mainboard-rescue:E5908-5VC145-L J1
 U 1 1 593322BC
 P 1900 3900
 F 0 "J1" H 1350 6050 50  0000 L BNN
@@ -165,7 +130,7 @@ F 8 "Conn Mod Jack 8p8c r/a Shielded" H 1900 3900 50  0001 L BNN "Description"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR07
+L mainboard-rescue:+12V #PWR07
 U 1 1 59334CCE
 P 1900 2600
 F 0 "#PWR07" H 1900 2450 50  0001 C CNN
@@ -176,7 +141,7 @@ F 3 "" H 1900 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR08
+L mainboard-rescue:+12V #PWR08
 U 1 1 59334DD5
 P 1900 3700
 F 0 "#PWR08" H 1900 3550 50  0001 C CNN
@@ -187,7 +152,7 @@ F 3 "" H 1900 3700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR09
+L mainboard-rescue:+12V #PWR09
 U 1 1 59334DEC
 P 1900 4800
 F 0 "#PWR09" H 1900 4650 50  0001 C CNN
@@ -198,7 +163,7 @@ F 3 "" H 1900 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR010
+L mainboard-rescue:+12V #PWR010
 U 1 1 59334E5F
 P 1900 5900
 F 0 "#PWR010" H 1900 5750 50  0001 C CNN
@@ -209,7 +174,7 @@ F 3 "" H 1900 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 7805-RESCUE-mainboard U1
+L mainboard-rescue:7805-RESCUE-mainboard U1
 U 1 1 593352F4
 P 2300 800
 F 0 "U1" H 2450 604 50  0000 C CNN
@@ -220,7 +185,7 @@ F 3 "" H 2300 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C1
+L mainboard-rescue:CP1_Small C1
 U 1 1 593353D2
 P 1900 950
 F 0 "C1" H 1910 1020 50  0000 L CNN
@@ -231,7 +196,7 @@ F 3 "" H 1900 950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C2
+L mainboard-rescue:CP1_Small C2
 U 1 1 59335466
 P 2700 900
 F 0 "C2" H 2710 970 50  0000 L CNN
@@ -242,7 +207,7 @@ F 3 "" H 2700 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR011
+L mainboard-rescue:VCC #PWR011
 U 1 1 59335A5F
 P 3100 750
 F 0 "#PWR011" H 3100 600 50  0001 C CNN
@@ -253,7 +218,7 @@ F 3 "" H 3100 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG012
+L mainboard-rescue:PWR_FLAG #FLG012
 U 1 1 59335A86
 P 2800 750
 F 0 "#FLG012" H 2800 845 50  0001 C CNN
@@ -264,7 +229,7 @@ F 3 "" H 2800 750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L mainboard-rescue:GND #PWR013
 U 1 1 59335C28
 P 1050 2500
 F 0 "#PWR013" H 1050 2250 50  0001 C CNN
@@ -275,7 +240,7 @@ F 3 "" H 1050 2500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L mainboard-rescue:GND #PWR014
 U 1 1 59335D7C
 P 1000 3600
 F 0 "#PWR014" H 1000 3350 50  0001 C CNN
@@ -286,7 +251,7 @@ F 3 "" H 1000 3600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L mainboard-rescue:GND #PWR015
 U 1 1 59335D9C
 P 1000 4700
 F 0 "#PWR015" H 1000 4450 50  0001 C CNN
@@ -297,7 +262,7 @@ F 3 "" H 1000 4700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L mainboard-rescue:GND #PWR016
 U 1 1 59335EBB
 P 1000 5800
 F 0 "#PWR016" H 1000 5550 50  0001 C CNN
@@ -308,11 +273,11 @@ F 3 "" H 1000 5800 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 1150 2700 1150
+	1400 1150 1650 1150
 Wire Wire Line
-	1900 1050 1900 1250
+	1900 1050 1900 1150
 Wire Wire Line
-	1300 750  1900 750 
+	1300 750  1650 750 
 Wire Wire Line
 	7150 2050 8250 2050
 Wire Wire Line
@@ -342,16 +307,16 @@ Wire Wire Line
 Wire Wire Line
 	7150 4050 8250 4050
 Wire Wire Line
-	1400 2600 2100 2600
+	1400 2600 1900 2600
 Connection ~ 1900 2600
 Wire Wire Line
-	1400 5900 2100 5900
+	1400 5900 1900 5900
 Connection ~ 1900 5900
 Wire Wire Line
-	1400 4800 2100 4800
+	1400 4800 1900 4800
 Connection ~ 1900 4800
 Wire Wire Line
-	1450 3700 2100 3700
+	1450 3700 1900 3700
 Connection ~ 1900 3700
 Connection ~ 1900 750 
 Wire Wire Line
@@ -365,19 +330,19 @@ Wire Wire Line
 	2700 1150 2700 1000
 Connection ~ 2300 1150
 Wire Wire Line
-	2700 750  3100 750 
+	2700 750  2800 750 
 Connection ~ 2800 750 
 Wire Wire Line
-	1000 5800 2200 5800
+	1000 5800 1300 5800
 Connection ~ 1300 5800
 Wire Wire Line
-	1000 4700 2200 4700
+	1000 4700 1300 4700
 Connection ~ 1300 4700
 Wire Wire Line
-	1000 3600 2200 3600
+	1000 3600 1300 3600
 Connection ~ 1300 3600
 Wire Wire Line
-	1050 2500 2200 2500
+	1050 2500 1300 2500
 Connection ~ 1300 2500
 Wire Wire Line
 	2200 2100 3200 2100
@@ -434,7 +399,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 5450 1300 5400
 $Comp
-L VCC #PWR017
+L mainboard-rescue:VCC #PWR017
 U 1 1 5933D005
 P 1050 2400
 F 0 "#PWR017" H 1050 2250 50  0001 C CNN
@@ -445,7 +410,7 @@ F 3 "" H 1050 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR018
+L mainboard-rescue:VCC #PWR018
 U 1 1 5933D028
 P 2000 2400
 F 0 "#PWR018" H 2000 2250 50  0001 C CNN
@@ -456,7 +421,7 @@ F 3 "" H 2000 2400 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR019
+L mainboard-rescue:VCC #PWR019
 U 1 1 5933D0DB
 P 1000 3500
 F 0 "#PWR019" H 1000 3350 50  0001 C CNN
@@ -467,7 +432,7 @@ F 3 "" H 1000 3500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR020
+L mainboard-rescue:VCC #PWR020
 U 1 1 5933D0FE
 P 2000 3500
 F 0 "#PWR020" H 2000 3350 50  0001 C CNN
@@ -478,7 +443,7 @@ F 3 "" H 2000 3500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR021
+L mainboard-rescue:VCC #PWR021
 U 1 1 5933D121
 P 2000 4600
 F 0 "#PWR021" H 2000 4450 50  0001 C CNN
@@ -489,7 +454,7 @@ F 3 "" H 2000 4600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR022
+L mainboard-rescue:VCC #PWR022
 U 1 1 5933D144
 P 1000 4600
 F 0 "#PWR022" H 1000 4450 50  0001 C CNN
@@ -500,7 +465,7 @@ F 3 "" H 1000 4600 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR023
+L mainboard-rescue:VCC #PWR023
 U 1 1 5933D207
 P 1000 5700
 F 0 "#PWR023" H 1000 5550 50  0001 C CNN
@@ -511,7 +476,7 @@ F 3 "" H 1000 5700 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR024
+L mainboard-rescue:VCC #PWR024
 U 1 1 5933D233
 P 2000 5700
 F 0 "#PWR024" H 2000 5550 50  0001 C CNN
@@ -606,16 +571,16 @@ Wire Wire Line
 Text Label 8000 2750 2    60   ~ 0
 TX
 Wire Wire Line
-	1000 2200 2100 2200
+	1000 2200 1400 2200
 Connection ~ 1400 2200
 Wire Wire Line
-	1000 3300 2100 3300
+	1000 3300 1400 3300
 Connection ~ 1400 3300
 Wire Wire Line
-	1000 4400 2100 4400
+	1000 4400 1400 4400
 Connection ~ 1400 4400
 Wire Wire Line
-	1000 5500 2100 5500
+	1000 5500 1400 5500
 Connection ~ 1400 5500
 Text Label 1100 3300 2    60   ~ 0
 TX
@@ -626,7 +591,7 @@ TX
 Text Label 1100 2200 2    60   ~ 0
 TX
 $Comp
-L POLOLU_A4988 U6
+L mainboard-rescue:POLOLU_A4988 U6
 U 1 1 593404B5
 P 9150 5800
 F 0 "U6" H 9150 6250 60  0000 C CNN
@@ -637,7 +602,7 @@ F 3 "" H 9150 5800 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L CP1_Small C4
+L mainboard-rescue:CP1_Small C4
 U 1 1 59343033
 P 8400 5450
 F 0 "C4" H 8410 5520 50  0000 L CNN
@@ -652,9 +617,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 5350 8400 5350
 Wire Wire Line
-	8200 5550 8550 5550
+	8200 5550 8400 5550
 $Comp
-L +12V #PWR025
+L mainboard-rescue:+12V #PWR025
 U 1 1 59343AD2
 P 8400 5250
 F 0 "#PWR025" H 8400 5100 50  0001 C CNN
@@ -665,7 +630,7 @@ F 3 "" H 8400 5250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L mainboard-rescue:GND #PWR026
 U 1 1 59343AFB
 P 8050 5400
 F 0 "#PWR026" H 8050 5150 50  0001 C CNN
@@ -684,7 +649,7 @@ Connection ~ 8400 5350
 Wire Wire Line
 	8400 5350 8400 5250
 $Comp
-L VCC #PWR027
+L mainboard-rescue:VCC #PWR027
 U 1 1 5934437E
 P 7900 6050
 F 0 "#PWR027" H 7900 5900 50  0001 C CNN
@@ -695,7 +660,7 @@ F 3 "" H 7900 6050 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L mainboard-rescue:GND #PWR028
 U 1 1 593443A7
 P 8100 6150
 F 0 "#PWR028" H 8100 5900 50  0001 C CNN
@@ -756,7 +721,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 5950 9750 5950
 $Comp
-L TLC5917ID U2
+L mainboard-rescue:TLC5917ID U2
 U 1 1 5951DAD6
 P 4000 3850
 F 0 "U2" H 4550 2950 50  0000 L BNN
@@ -772,7 +737,7 @@ F 8 "8-Bit Constant-Current LED Sink Driver 16-SOIC -40 to 125" H 4000 3850 50  
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR029
+L mainboard-rescue:VCC #PWR029
 U 1 1 5951ED95
 P 4850 3450
 F 0 "#PWR029" H 4850 3300 50  0001 C CNN
@@ -787,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3550 4800 3550
 $Comp
-L GND #PWR030
+L mainboard-rescue:GND #PWR030
 U 1 1 59520F38
 P 4800 4550
 F 0 "#PWR030" H 4800 4300 50  0001 C CNN
@@ -800,7 +765,7 @@ $EndComp
 Wire Wire Line
 	4800 4550 4800 4450
 $Comp
-L R R1
+L mainboard-rescue:R R1
 U 1 1 59521540
 P 5200 4150
 F 0 "R1" V 5280 4150 50  0000 C CNN
@@ -858,7 +823,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3350 8250 3350
 $Comp
-L CONN_02X07 P1
+L mainboard-rescue:CONN_02X07 P1
 U 1 1 59528D0D
 P 6050 2350
 F 0 "P1" H 6050 2750 50  0000 C CNN
@@ -869,7 +834,7 @@ F 3 "" H 6050 1150 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_02X07 P2
+L mainboard-rescue:CONN_02X07 P2
 U 1 1 59528DB4
 P 6050 3750
 F 0 "P2" H 6050 4150 50  0000 C CNN
@@ -907,20 +872,18 @@ Wire Wire Line
 	6300 2550 6350 2550
 Wire Wire Line
 	6300 2650 6350 2650
-Connection ~ 5800 4050
 Connection ~ 5800 3950
 Connection ~ 5800 3850
 Connection ~ 5800 3750
 Connection ~ 5800 3650
 Connection ~ 5800 3550
-Connection ~ 5800 2650
 Connection ~ 5800 2550
 Connection ~ 5800 2450
 Connection ~ 5800 2350
 Connection ~ 5800 2250
 Connection ~ 5800 2150
 $Comp
-L GND #PWR031
+L mainboard-rescue:GND #PWR031
 U 1 1 5952C74F
 P 8200 4500
 F 0 "#PWR031" H 8200 4250 50  0001 C CNN
@@ -931,7 +894,7 @@ F 3 "" H 8200 4500 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR032
+L mainboard-rescue:VCC #PWR032
 U 1 1 5952C781
 P 7950 4350
 F 0 "#PWR032" H 7950 4200 50  0001 C CNN
@@ -950,7 +913,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 4350 8200 4500
 $Comp
-L GND #PWR033
+L mainboard-rescue:GND #PWR033
 U 1 1 5952CBF3
 P 10500 1650
 F 0 "#PWR033" H 10500 1400 50  0001 C CNN
@@ -963,14 +926,14 @@ $EndComp
 Wire Wire Line
 	8250 1950 8250 1650
 Wire Wire Line
-	8250 1650 10500 1650
+	8250 1650 10200 1650
 Wire Wire Line
 	10050 2050 10200 2050
 Wire Wire Line
 	10200 2050 10200 1650
 Connection ~ 10200 1650
 $Comp
-L VCC #PWR034
+L mainboard-rescue:VCC #PWR034
 U 1 1 5952CF91
 P 10100 1850
 F 0 "#PWR034" H 10100 1700 50  0001 C CNN
@@ -985,7 +948,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 1950 10050 1950
 $Comp
-L CONN_01X04 P3
+L mainboard-rescue:CONN_01X04 P3
 U 1 1 5952E615
 P 8250 5800
 F 0 "P3" H 8250 6050 50  0000 C CNN
@@ -1004,7 +967,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 5950 8450 5950
 $Comp
-L C_Small C3
+L mainboard-rescue:C_Small C3
 U 1 1 5952F7E4
 P 3850 2850
 F 0 "C3" H 3860 2920 50  0000 L CNN
@@ -1015,7 +978,7 @@ F 3 "" H 3850 2850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L mainboard-rescue:GND #PWR035
 U 1 1 5952F9C7
 P 3850 3050
 F 0 "#PWR035" H 3850 2800 50  0001 C CNN
@@ -1026,7 +989,7 @@ F 3 "" H 3850 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR036
+L mainboard-rescue:VCC #PWR036
 U 1 1 5952F9FF
 P 3850 2650
 F 0 "#PWR036" H 3850 2500 50  0001 C CNN
@@ -1043,10 +1006,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 1750 6350 1850
 Wire Wire Line
-	5800 3250 6350 3250
+	5800 3250 6250 3250
 Connection ~ 5800 3450
 Wire Wire Line
-	5800 1850 5800 2650
+	5800 1850 5800 2050
 Wire Wire Line
 	6350 1850 5800 1850
 Connection ~ 5800 2050
@@ -1062,7 +1025,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 2950 5500 2950
 $Comp
-L BARREL_JACK CON1
+L mainboard-rescue:BARREL_JACK CON1
 U 1 1 5972E104
 P 1000 850
 F 0 "CON1" H 1000 1100 50  0000 C CNN
@@ -1076,13 +1039,13 @@ Connection ~ 1650 750
 Wire Wire Line
 	1300 950  1400 950 
 Wire Wire Line
-	1400 850  1400 1150
+	1400 850  1400 950 
 Connection ~ 1650 1150
 Wire Wire Line
 	1300 850  1400 850 
 Connection ~ 1400 950 
 $Comp
-L GND #PWR037
+L mainboard-rescue:GND #PWR037
 U 1 1 59737704
 P 1900 6200
 F 0 "#PWR037" H 1900 5950 50  0001 C CNN
@@ -1109,7 +1072,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 2800 5350 2800
 $Comp
-L GND #PWR038
+L mainboard-rescue:GND #PWR038
 U 1 1 597FF68A
 P 7250 1550
 F 0 "#PWR038" H 7250 1300 50  0001 C CNN
@@ -1120,7 +1083,7 @@ F 3 "" H 7250 1550 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L mainboard-rescue:GND #PWR039
 U 1 1 597FF6C5
 P 7250 3050
 F 0 "#PWR039" H 7250 2800 50  0001 C CNN
@@ -1142,9 +1105,9 @@ Wire Wire Line
 	6250 3150 6250 3250
 Connection ~ 6250 3250
 Wire Wire Line
-	5800 3250 5800 4050
+	5800 3250 5800 3450
 $Comp
-L LED D1
+L mainboard-rescue:LED D1
 U 1 1 59ED885E
 P 10650 3000
 F 0 "D1" H 10650 3100 50  0000 C CNN
@@ -1155,7 +1118,7 @@ F 3 "" H 10650 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D2
+L mainboard-rescue:LED D2
 U 1 1 59ED8B7F
 P 10650 3250
 F 0 "D2" H 10650 3350 50  0000 C CNN
@@ -1166,7 +1129,7 @@ F 3 "" H 10650 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L SW_Push SW1
+L mainboard-rescue:SW_Push SW1
 U 1 1 59ED8D67
 P 7450 4200
 F 0 "SW1" H 7500 4300 50  0000 L CNN
@@ -1186,7 +1149,7 @@ Wire Wire Line
 	7250 4500 8200 4500
 Connection ~ 8200 4500
 $Comp
-L GND #PWR040
+L mainboard-rescue:GND #PWR040
 U 1 1 59ED940E
 P 10900 3400
 F 0 "#PWR040" H 10900 3150 50  0001 C CNN
@@ -1199,7 +1162,7 @@ $EndComp
 Wire Wire Line
 	10800 3250 10950 3250
 Wire Wire Line
-	10950 3000 10950 3400
+	10950 3000 10950 3250
 Wire Wire Line
 	10950 3400 10900 3400
 Wire Wire Line
@@ -1213,4 +1176,74 @@ Wire Wire Line
 	10300 3150 10050 3150
 Wire Wire Line
 	10500 3250 10050 3250
+Wire Wire Line
+	1900 2600 2100 2600
+Wire Wire Line
+	1900 5900 2100 5900
+Wire Wire Line
+	1900 4800 2100 4800
+Wire Wire Line
+	1900 3700 2100 3700
+Wire Wire Line
+	1900 1150 2300 1150
+Wire Wire Line
+	1900 1150 1900 1250
+Wire Wire Line
+	2300 1150 2700 1150
+Wire Wire Line
+	2800 750  3100 750 
+Wire Wire Line
+	1300 5800 2200 5800
+Wire Wire Line
+	1300 4700 2200 4700
+Wire Wire Line
+	1300 3600 2200 3600
+Wire Wire Line
+	1300 2500 2200 2500
+Wire Wire Line
+	1400 2200 2100 2200
+Wire Wire Line
+	1400 3300 2100 3300
+Wire Wire Line
+	1400 4400 2100 4400
+Wire Wire Line
+	1400 5500 2100 5500
+Wire Wire Line
+	8400 5550 8550 5550
+Wire Wire Line
+	5800 3950 5800 4050
+Wire Wire Line
+	5800 3850 5800 3950
+Wire Wire Line
+	5800 3750 5800 3850
+Wire Wire Line
+	5800 3650 5800 3750
+Wire Wire Line
+	5800 3550 5800 3650
+Wire Wire Line
+	5800 2550 5800 2650
+Wire Wire Line
+	5800 2450 5800 2550
+Wire Wire Line
+	5800 2350 5800 2450
+Wire Wire Line
+	5800 2250 5800 2350
+Wire Wire Line
+	5800 2150 5800 2250
+Wire Wire Line
+	10200 1650 10500 1650
+Wire Wire Line
+	5800 3450 5800 3550
+Wire Wire Line
+	5800 2050 5800 2150
+Wire Wire Line
+	1650 750  1900 750 
+Wire Wire Line
+	1650 1150 1900 1150
+Wire Wire Line
+	1400 950  1400 1150
+Wire Wire Line
+	6250 3250 6350 3250
+Wire Wire Line
+	10950 3250 10950 3400
 $EndSCHEMATC
